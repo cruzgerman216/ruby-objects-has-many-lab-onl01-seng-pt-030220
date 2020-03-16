@@ -5,7 +5,4 @@ class Song
 
   end
 
-
-
-
 end
