@@ -6,7 +6,7 @@ class Artist
      if @songs == nil
        @songs = []
        @songs << name
-       
+
      else
        @songs << name
      end
