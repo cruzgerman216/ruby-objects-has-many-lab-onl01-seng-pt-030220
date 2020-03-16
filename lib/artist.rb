@@ -3,7 +3,13 @@ class Artist
 
   def initialize(name)
      @name = name
-     @songs = []
+     if @songs == nil
+       @songs = []
+       @songs << name
+       
+     else
+       @songs << name
+     end
    end
    def add_song(song)
      @songs << song
